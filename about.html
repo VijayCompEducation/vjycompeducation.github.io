@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Muli', sans-serif;
+		}
+		body{
+			background-image: linear-gradient(25deg, #21D4FD 0%, #B721FF 100%);
+			position: relative;
+			background-repeat: no-repeat;
+			width: 100%;
+			height: 100vh;
+		}
+		.logo img{
+			top: 0;
+			left: 0;
+			margin: 6px;
+			padding: 1px;
+			position: absolute;
+			overflow: hidden;
+		}
+		a{
+			color: white;
+			text-decoration: none;
+		}
+		nav{
+			width: 100%;
+			height: 15vh;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			position: relative;
+		}
+		.logo a{
+			font-size: 1.6rem;
+			text-transform: uppercase;
+			font-weight: bold;
+			margin-left: 10px;
+		}
+		h3{
+			font-size: 0.8em;
+			font-weight: 500;
+			margin-bottom: 10px;
+			margin-left: 68px;
+		}
+		.active,ul li:hover{
+			border-top: 2px solid #5dade2;
+			border-bottom: 2px solid #5dade2;
+		}
+		.contact_btn{
+			background-color: #d465ef;
+			padding: 12px 26px;
+			font-style: 14px;
+			font-weight: 500;
+			border: 1px solid transparent;
+			text-transform: capitalize;
+		}
+		.contact_btn:hover{
+			background: linear-gradient(to bottom, #615cfd 0%, #d465ef 100%);
+		}
+		.menu ul li{
+			list-style: none;
+			display: inline-block;
+			padding: 0 25px;
+		}
+		.menu ul li a{
+			text-transform: capitalize;
+		}
+		.backimg{
+			width: 100%;
+			height: 100vh;
+			background-size: cover;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			color: white;
+		}
+		.profile{
+			width: 950px;
+			background-color: rgba(0,0,0,0.3);
+			padding: 25px 0;
+			border-radius: 10%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+/*
+		img{
+			height: 250px;
+			border-radius: 70%;
+			margin-bottom: 20px;
+			align-items: center;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}*/
+
+		.profiletext{
+			line-height: 1.9em;
+			margin-bottom: 20px;
+			text-align: center;
+			color: white;
+		}
+
+		.profiletext h2{
+			font-size: 2em;
+			font-weight: 500;
+			margin-bottom: 7px;
+		}
+
+		.profiletext h3{
+			font-size: 1.4em;
+			font-weight: 500;
+			margin-bottom: 10px;
+			text-align: center;
+			margin-left: 11px;
+		}
+		.profiletext h4{
+			letter-spacing: 1px;
+		}
+		.profile img{
+			border-radius: 150%;
+			margin-bottom: 10px;
+			align-items: center;
+			display: block;
+			height: 200px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+	</style>
+	<link href="https://fonts.googleapis.com/css2?family=Muli:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+</head>
+<body>
+	<header>
+		<nav class="navbar">
+			<div class="logo">
+				<img src="image/logo1.png" width="90" height="90">
+				<a href="https://vjycompeducation.blogspot.com/" target="_blank">Vijay CompEducation</a>
+				<h3><b>Let's Learn Something New</b></h3>
+			</div>
+
+			<div class="menu">
+				<ul>
+					<li><a href="index.html" class="active">Home</a></li>
+					<li><a href="about.html" class="active">About</a></li>
+					<li><a href="gallery.html" class="active">Gallery</a></li>
+					<li><a href="service.html" class="active">Services</a></li>
+				</ul>	
+			</div>
+
+			<div class="contact_btn">
+				<a href="contact.html">Contact Me</a>
+			</div>
+		</div>
+		</nav>
+
+		<div class="profile">
+					<img src="image/ima.png" width="200" height="200">
+					<div class="profiletext">
+						<h4><q><i>Vijay Kumar Sahu as in Vijay CompEducation is a Web Developer , Youtuber and Artist. Vijay CompEducation wants to help others by providing free videos on Web Development , Art and many more.</i></q></h4><br>
+					<h2> Vijay Kumar Sahu </h2>
+					<h3> Berhampur, Odisha</h3>
+					<p> ARTIST | YOUTUBER | FRONT-END DEVELOPER </p>
+			</div>
+
+
+			
+	</header>
+</body>
+</html>

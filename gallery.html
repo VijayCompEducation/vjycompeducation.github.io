@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Muli', sans-serif;
+		}
+		body{
+			background-image: linear-gradient(25deg, #21D4FD 0%, #B721FF 100%);
+			position: relative;
+			background-repeat: no-repeat;
+			width: 100%;
+			height: 100vh;
+		}
+		div.gallery{
+			margin: 5px;
+			
+			float: left;
+			width: 180px;
+		}
+		div.gallery:hover{
+			border: 1px solid #777;
+		}
+		div.gallery img{
+			width: 100%;
+			height: auto;
+		}
+		.logo img{
+			top: 0;
+			left: 0;
+			margin: 6px;
+			padding: 1px;
+			position: absolute;
+			overflow: hidden;
+		}
+		a{
+			color: white;
+			text-decoration: none;
+		}
+		nav{
+			width: 100%;
+			height: 15vh;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			position: relative;
+		}
+		.logo a{
+			font-size: 1.6rem;
+			text-transform: uppercase;
+			font-weight: bold;
+			margin-left: 10px;
+		}
+		h3{
+			font-size: 0.8em;
+			font-weight: 500;
+			margin-bottom: 10px;
+			margin-left: 68px;
+		}
+		.active,ul li:hover{
+			border-top: 2px solid #5dade2;
+			border-bottom: 2px solid #5dade2;
+		}
+		.contact_btn{
+			background-color: #d465ef;
+			padding: 12px 26px;
+			font-style: 14px;
+			font-weight: 500;
+			border: 1px solid transparent;
+			text-transform: capitalize;
+		}
+		.contact_btn:hover{
+			background: linear-gradient(to bottom, #615cfd 0%, #d465ef 100%);
+		}
+		.menu ul li{
+			list-style: none;
+			display: inline-block;
+			padding: 0 25px;
+		}
+		.menu ul li a{
+			text-transform: capitalize;
+		}
+		div.desc{
+			padding: 15px;
+			text-align: center;
+		}
+		
+	</style>
+	<link href="https://fonts.googleapis.com/css2?family=Muli:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+</head>
+<body>
+	<header>
+		<nav class="navbar">
+			<div class="logo">
+				<img src="image/logo1.png" width="90" height="90">
+				<a href="https://vjycompeducation.blogspot.com/" target="_blank">Vijay CompEducation</a>
+				<h3><b>Let's Learn Something New</b></h3>
+			</div>
+
+			<div class="menu">
+				<ul>
+					<li><a href="index.html" class="active">Home</a></li>
+					<li><a href="about.html" class="active">About</a></li>
+					<li><a href="gallery.html" class="active">Gallery</a></li>
+					<li><a href="service.html" class="active">Services</a></li>
+				</ul>
+			</div>
+
+			<div class="contact_btn">
+				<a href="contact.html">Contact Me</a>
+			</div>
+		</nav>
+	</header>
+
+	<!-- <div class="gallery">
+		<a target="_blank" href="image/1.jpg">
+			<img src="image/1.jpg" width="400" height="300">
+		</a>
+	</div> -->
+
+	<div class="gallery">
+		<a target="_blank" href="image/2.jpg">
+			<img src="image/2.jpg" width="400" height="300">
+		</a>
+		<div class="desc">A small village</div>
+	</div>	
+
+	<div class="gallery">
+		<a target="_blank" href="image/3.jpg">
+			<img src="image/3.jpg" width="400" height="300">
+		</a>
+		<div class="desc">A scenery</div>
+	</div>
+
+	<div class="gallery">
+		<a target="_blank" href="image/4.jpg">
+			<img src="image/4.jpg" width="400" height="300"></a>
+			<div class="desc">A mountain scene</div>
+	</div>
+
+	<div class="gallery">
+		<a target="_blank" href="image/6.jpg">
+			<img src="image/6.jpg" width="400" height="300"></a>
+			<div class="desc">A small village</div>
+	</div>
+
+	<div class="gallery">
+		<a target="_blank" href="image/7.jpg">
+			<img src="image/7.jpg" width="400" height="300">
+		</a>
+		<div class="desc">Sun rise</div>
+	</div>	
+
+	<div class="gallery">
+		<a target="_blank" href="image/8.jpg">
+			<img src="image/8.jpg" width="400" height="300">
+		</a>
+		<div class="desc">A Rainbow Scene</div>
+	</div>
+
+	<div class="gallery">
+		<a target="_blank" href="image/9.jpg">
+			<img src="image/9.jpg" width="400" height="300"></a>
+			<div class="desc">Sun Set</div>
+	</div>
+
+	<div class="gallery">
+		<a target="_blank" href="image/10.jpg">
+			<img src="image/10.jpg" width="400" height="300"></a>
+			<div class="desc">Add a description of the image here</div>
+	</div>
+
+	<div class="gallery">
+		<a target="_blank" href="image/11.jpg">
+			<img src="image/11.jpg" width="400" height="300">
+		</a>
+		<div class="desc">Add a description of the image here</div>
+	</div>
+
+	<div class="gallery">
+		<a target="_blank" href="image/12.jpg">
+			<img src="image/12.jpg" width="400" height="300"></a>
+			<div class="desc">Add a description of the image here</div>
+	</div>
+
+	<div class="gallery">
+		<a target="_blank" href="image/14.jpg">
+			<img src="image/14.jpg" width="400" height="300"></a>
+			<div class="desc">Add a description of the image here</div>
+	</div>
+</body>
+</html>

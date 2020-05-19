@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Muli', sans-serif;
+		}
+		body{
+			background-image: linear-gradient(25deg, #21D4FD 0%, #B721FF 100%);
+			position: relative;
+			background-repeat: no-repeat;
+			width: 100%;
+			height: 100vh;
+		}
+		.logo img{
+			top: 0;
+			left: 0;
+			margin: 6px;
+			padding: 1px;
+			position: absolute;
+			overflow: hidden;
+		}
+		a{
+			color: white;
+			text-decoration: none;
+		}
+		nav{
+			width: 100%;
+			height: 15vh;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			position: relative;
+		}
+		.logo a{
+			font-size: 1.6rem;
+			text-transform: uppercase;
+			font-weight: bold;
+			margin-left: 10px;
+		}
+		h3{
+			font-size: 0.8em;
+			font-weight: 500;
+			margin-bottom: 10px;
+			margin-left: 68px;
+		}
+		.active,ul li:hover{
+			border-top: 2px solid #5dade2;
+			border-bottom: 2px solid #5dade2;
+		}
+		.contact_btn{
+			background-color: #d465ef;
+			padding: 12px 26px;
+			font-style: 14px;
+			font-weight: 500;
+			border: 1px solid transparent;
+			text-transform: capitalize;
+		}
+		.contact_btn:hover{
+			background: linear-gradient(to bottom, #615cfd 0%, #d465ef 100%);
+		}
+		.menu ul li{
+			list-style: none;
+			display: inline-block;
+			padding: 0 25px;
+		}
+		.menu ul li a{
+			text-transform: capitalize;
+		}
+		.offer h2{
+			margin: 20px;
+			color: white;
+		}
+		
+		.center{
+			width: 40%;
+			position: absolute;
+			top: 60%;
+			left: 70%;
+			transform: translate(-50%,-50%);
+			padding: 20px;
+			box-sizing: border-box;
+			box-shadow: 0 20px 50px rgba(0,0,0,.2);
+		}
+		h1{
+			margin: 0;
+			padding: 0;
+			color: #fff;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+		.skillBox{
+			box-sizing: border-box;
+			width: 100%;
+			margin: 2px 0;
+		}
+		.skillBox p{
+			color: #fff;
+			text-transform: uppercase;
+			margin: 1 1 30px;
+			padding: 2px;
+			font-weight: bold;
+			letter-spacing: 1px;
+		}
+		.skillBox p:nth-child(2){
+			float: right;
+			position: relative;
+			top: -25px;
+		}
+		.skill{
+			background: #262626;
+			padding: 4px;
+			box-sizing: border-box;
+			border: 1px solid #0fffb7;
+			border-radius: 2px;
+		}
+		.skill_level{
+		 	background: #0fffb7;
+			width: 100%;
+			height: 5px;
+		}
+		.clip{
+			margin-left: 3px;
+		}
+	</style>
+	<link href="https://fonts.googleapis.com/css2?family=Muli:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />	
+</head>
+<body>
+	<header>
+		<nav class="navbar">
+			<div class="logo">
+				<img src="image/logo1.png" width="90" height="90">
+				<a href="https://vjycompeducation.blogspot.com/" target="_blank">Vijay CompEducation</a>
+				<h3><b>Let's Learn Something New</b></h3>
+			</div>
+
+			<div class="menu">
+				<ul>
+					<li><a href="index.html" class="active">Home</a></li>
+					<li><a href="about.html" class="active">About</a></li>
+					<li><a href="gallery.html" class="active">Gallery</a></li>
+					<li><a href="service.html" class="active">Services</a></li>
+				</ul>
+			</div>
+
+			<div class="contact_btn">
+				<a href="contact.html">Contact Me</a>
+			</div>
+		</nav>
+	</header>
+
+	<div class="offer">
+		<h2 style="font-size: 50px; text-align: center;">What Do We Offer</h2>
+	</div>
+
+	<div class="clip">
+		<img src="image/today1.png" width="600" height="420">
+	</div>
+	<div class="center">
+		<h1>Software Skills</h1>
+		<div class="skillBox">
+			<p>HTML</p>
+			<p>90%</p>
+			<div class="skill">
+				<div class="skill_level" style="width: 90%"></div>
+			</div>
+		</div>
+
+		<div class="skillBox">
+			<p>CSS</p>
+			<p>80%</p>
+			<div class="skill">
+				<div class="skill_level" style="width: 80%"></div>
+			</div>
+		</div>
+
+		<div class="skillBox">
+			<p>JAVASCRIPT</p>
+			<p>70%</p>
+			<div class="skill">
+				<div class="skill_level" style="width: 70%"></div>
+			</div>
+		</div>
+
+		<div class="skillBox">
+			<p>SQL</p>
+			<p>80%</p>
+			<div class="skill">
+				<div class="skill_level" style="width: 80%"></div>
+			</div>
+		</div>
+
+		<div class="skillBox">
+			<p>EXCEL</p>
+			<p>90%</p>
+			<div class="skill">
+				<div class="skill_level" style="width: 90%"></div>
+			</div>
+		</div>
+
+		<div class="skillBox">
+			<p>ART</p>
+			<p>95%</p>
+			<div class="skill">
+				<div class="skill_level" style="width: 95%"></div>
+			</div>
+		</div>
+
+
+		<div class="skillBox">
+			<p>GA</p>
+			<p>100%</p>
+			<div class="skill">
+				<div class="skill_level" style="width: 100%"></div>
+			</div>
+		</div>
+		
+	</div>
+
+</body>
+</html>
